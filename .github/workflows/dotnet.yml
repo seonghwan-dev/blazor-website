@@ -20,7 +20,7 @@ jobs:
         dotnet-version: 3.1
         
     - name: Setup .NET 6.0 SDK
-      uses: actions/setup-dotnet@v3
+      uses: actions/setup-dotnet@v2
       with:
         dotnet-verison: 6.0
 
